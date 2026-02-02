@@ -112,6 +112,7 @@ I prefer building **fewer, well-engineered systems** that can survive real usage
 
 * GitHub: [Github](https://github.com/YashJagdale2122)
 * LinkedIn: [LinkedIn](https://in.linkedin.com/in/yash-jagdale-8b5040247)
+* Pune, India
 
 
 
