@@ -6,7 +6,7 @@ I focus on **clean system design, scalable APIs, async processing, and productio
 
 Currently working as a **Project Engineer at CDAC**, with hands-on exposure to backend development, AI pipelines, and system-level thinking.
 
----
+
 
 ## 🧠 What I Actually Do 
 
@@ -16,7 +16,7 @@ Currently working as a **Project Engineer at CDAC**, with hands-on exposure to b
 * Think in terms of **data flow, failure modes, and scalability**
 * Write code that is **reviewable, testable, and deployable**
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -45,7 +45,7 @@ Currently working as a **Project Engineer at CDAC**, with hands-on exposure to b
 * Modular codebases
 * README-driven development
 
----
+
 
 ## 📌 Flagship Backend Project
 
@@ -72,7 +72,7 @@ Designed to handle long-running video processing using async/background executio
 
 👉 Repo: *(Pinned on profile)*
 
----
+
 
 ### 🔹 AI-powered Media Processing Services
 
@@ -85,7 +85,7 @@ Supporting services focused on:
 Built to validate how **AI components integrate into backend workflows**, including failure handling and pipeline orchestration.
 
 
----
+
 
 ## 🧩 How I Think as an Engineer
 
@@ -96,7 +96,7 @@ Built to validate how **AI components integrate into backend workflows**, includ
 
 I prefer building **fewer, well-engineered systems** that can survive real usage.
 
----
+
 
 ## 🎯 What I’m Looking For
 
@@ -106,14 +106,14 @@ I prefer building **fewer, well-engineered systems** that can survive real usage
   **Level:** Junior → Mid
   **Environment:** Product teams, applied AI, R&D, or system-heavy backend work
 
----
+
 
 ## 📬 Let’s Connect
 
 * GitHub: [Github](https://github.com/YashJagdale2122)
 * LinkedIn: [LinkedIn](https://in.linkedin.com/in/yash-jagdale-8b5040247)
 
----
+
 
 ## ⚠️ Notes for Reviewers
 
