@@ -1,7 +1,8 @@
 # 👋 Hi, I’m Yash Jagdale
 
-Backend Engineer with **1+ year of experience** building **Python-based backend systems and AI-powered services**.
+Backend Engineer with **1+ year of experience** building **Python-based backend systems and AI-powered pipelines for real-world workloads**.
 I focus on **clean system design, scalable APIs, async processing, and production-ready engineering** rather than demo scripts.
+
 
 Currently working as a **Project Engineer at CDAC**, with hands-on exposure to backend development, AI pipelines, and system-level thinking.
 
@@ -46,7 +47,9 @@ Currently working as a **Project Engineer at CDAC**, with hands-on exposure to b
 
 ---
 
-## 📌 Flagship Projects
+## 📌 Flagship Backend Project
+
+**This repository represents my strongest proof-of-work and system design ability.**
 
 ### 🔹 Video Content Intelligence Platform
 
@@ -57,6 +60,9 @@ A backend system that ingests video URLs and produces structured intelligence su
 * Translation
 * Summarization
 * Sentiment analysis
+
+Designed to handle long-running video processing using async/background execution, ensuring API responsiveness under heavy workloads.
+
 
 **Why this matters**
 
@@ -76,7 +82,8 @@ Supporting services focused on:
 * Face recognition
 * Audio/video processing
 
-Used to explore **AI integration into backend workflows**, not standalone ML demos.
+Built to validate how **AI components integrate into backend workflows**, including failure handling and pipeline orchestration.
+
 
 ---
 
