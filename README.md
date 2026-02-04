@@ -1,59 +1,61 @@
-# 👋 Hi, I’m Yash Jagdale
+# Hi, I’m Yash Jagdale
 
-Backend Engineer with **1+ year of experience** building **Python-based backend systems and AI-powered pipelines for real-world workloads**.
-I focus on **clean system design, scalable APIs, async processing, and production-ready engineering** rather than demo scripts.
+I’m a backend engineer with **1+ year of experience** building **Python-based backend systems and AI-assisted pipelines** for real-world workloads.
 
+My focus is on **clean system design, well-defined APIs, background processing, and production-ready engineering** — not demo scripts or one-off prototypes.
 
-Currently working as a **Project Engineer at CDAC**, with hands-on exposure to backend development, AI pipelines, and system-level thinking.
-
-
-
-## 🧠 What I Actually Do 
-
-* Design **backend services** with clear API contracts and layered architecture
-* Build **AI-assisted pipelines** (transcription, NLP, content analysis) as backend components
-* Work with **async/background processing** for long-running jobs
-* Think in terms of **data flow, failure modes, and scalability**
-* Write code that is **reviewable, testable, and deployable**
+I currently work as a **Project Engineer at CDAC**, where I’ve gained hands-on experience with backend development, AI pipelines, and system-level problem solving.
 
 
+## What I Work On
 
-## 🛠️ Tech Stack
+I spend most of my time thinking about how backend systems behave in practice.
 
-**Backend**
+That usually means:
+
+* Designing **backend services** with clear API contracts and layered architecture
+* Building **AI-assisted pipelines** (transcription, NLP, content analysis) as backend components
+* Handling **background and long-running processing** without blocking APIs
+* Thinking through **data flow, failure modes, retries, and scalability**
+* Writing code that is **readable, testable, and maintainable**
+
+
+## Tech Stack
+
+### Backend
 
 * Python, FastAPI
-* REST APIs, background tasks, async workflows
+* REST APIs
+* Background and async workflows
 
-**AI / ML (as backend components)**
+### AI / ML (as backend components)
 
 * Whisper (speech-to-text)
 * NLP pipelines (summarization, sentiment, translation)
 * Transformer-based models
 
-**Systems & Infra**
+### Systems & Infrastructure
 
 * Docker
 * PostgreSQL
 * Object storage (MinIO)
 * Linux-based development
 
-**Engineering Practices**
+### Engineering Practices
 
 * Structured logging
-* Error handling & retries
+* Error handling and retries
 * Modular codebases
-* README-driven development
+* Documentation-first development
 
 
+## Flagship Backend Projects
 
-## 📌 Flagship Backend Project
+### Video Content Intelligence Platform
 
-**This repository represents my strongest proof-of-work and system design ability.**
+This is my strongest proof-of-work and system design project.
 
-### 🔹 Video Content Intelligence Platform
-
-A backend system that ingests video URLs and produces structured intelligence such as:
+It’s a backend system that ingests video URLs and produces structured intelligence such as:
 
 * Metadata extraction
 * Transcription
@@ -61,63 +63,57 @@ A backend system that ingests video URLs and produces structured intelligence su
 * Summarization
 * Sentiment analysis
 
-Designed to handle long-running video processing using async/background execution, ensuring API responsiveness under heavy workloads.
+The system is designed to handle **long-running video processing** using background execution so that APIs remain responsive under load.
+
+**Why this project matters**
+
+* Built as a backend system, not a script
+* Uses background processing and modular pipelines
+* Demonstrates system design combined with applied AI
+
+(Repository is pinned on my profile.)
 
 
-**Why this matters**
+### AI-powered Media Processing Services
 
-* Designed as a **backend system**, not a script
-* Uses async processing and modular AI pipelines
-* Demonstrates system design + applied AI
-
-👉 Repo: *(Pinned on profile)*
-
-
-
-### 🔹 AI-powered Media Processing Services
-
-Supporting services focused on:
+A set of supporting backend services focused on:
 
 * Speech-to-text
 * Face recognition
-* Audio/video processing
+* Audio and video processing
 
-Built to validate how **AI components integrate into backend workflows**, including failure handling and pipeline orchestration.
-
-
+These projects explore how **AI components fit into backend workflows**, including orchestration, retries, and failure handling.
 
 
-## 🧩 How I Think as an Engineer
+## How I Think as an Engineer
 
-* Systems > scripts
-* Trade-offs > hype
-* Readability > cleverness
-* Depth > number of projects
+* Systems over scripts
+* Trade-offs over hype
+* Readability over cleverness
+* Depth over number of projects
 
-I prefer building **fewer, well-engineered systems** that can survive real usage.
+I prefer building **fewer, well-engineered systems** that can handle real usage rather than many shallow projects.
 
 
-
-## 🎯 What I’m Looking For
+## What I’m Looking For
 
 * Backend Engineer (Python)
 * Backend + AI Engineer
 * Systems / Platform roles
-  **Level:** Junior → Mid
-  **Environment:** Product teams, applied AI, R&D, or system-heavy backend work
+
+**Level:** Junior to Mid
+**Environment:** Product teams, applied AI, R&D, or system-heavy backend work
 
 
+## Contact
 
-## 📬 Let’s Connect
-
-* GitHub: [Github](https://github.com/YashJagdale2122)
-* LinkedIn: [LinkedIn](https://in.linkedin.com/in/yash-jagdale-8b5040247)
-* Pune, India
-
+* GitHub: [https://github.com/YashJagdale2122](https://github.com/YashJagdale2122)
+* LinkedIn: [https://in.linkedin.com/in/yash-jagdale-8b5040247](https://in.linkedin.com/in/yash-jagdale-8b5040247)
+* Location: Pune, India
 
 
-## ⚠️ Notes for Reviewers
+## Notes for Reviewers
 
-* Repositories are intentionally **curated**
-* Each major repo represents **real engineering effort**
-* I value **code reviews and architectural discussions**
+* Repositories are intentionally curated
+* Each major repository represents real engineering effort
+* I value code reviews and architectural discussions
