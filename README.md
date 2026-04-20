@@ -1,6 +1,6 @@
 # Hi, I’m Yash Jagdale
 
-I’m a backend engineer with **1+ year of experience** building **Python-based backend systems and AI-assisted pipelines** for real-world workloads.
+I’m a backend engineer with **2 years of experience** building **Python-based backend systems and AI-assisted pipelines** for real-world workloads.
 
 My focus is on **clean system design, well-defined APIs, background processing, and production-ready engineering** — not demo scripts or one-off prototypes.
 
