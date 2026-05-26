@@ -9,8 +9,26 @@
 I specialize in the **infrastructure layer of AI systems** — not model research. My work is about making AI models reliable, fast, and scalable in production under real constraints.
 
 ---
+## Technical Projects & Architecture Showcase
 
-## What I've Actually Built
+The repositories below are public reconstructions of patterns I've built in production — NDA prevents sharing original platform code, but the underlying system design and engineering metrics are identical.
+
+**[leakdb-platform-engine](https://github.com/YashJagdale2122/leakdb-platform-engine)**
+Distributed cyber threat intelligence pipeline architecture engineered to ingest, parse, and index massive unstructured data leaks out-of-band.
+* **Architecture**: Engineered an asynchronous FastAPI edge gateway utilizing connection pooling (`asyncpg`) to return instant HTTP `202 Accepted` handshake acknowledgments, offloading heavy processing workloads off the client loop.
+* **Broker & Queue**: Replaced single-threaded Redis topologies with **DragonflyDB** to handle distributed Celery state via its multi-threaded, shared-nothing architecture using Linux `io_uring` primitives.
+* **Memory Safety**: Hardened worker execution blocks against fatal Out-of-Memory (OOM) container crashes by deploying memory-safe, multi-part chunked byte streaming generators restricted to a strict 32 KB allocation window.
+* **AI Pipelines**: Implemented a three-tier high-availability OCR fallback cascade (Florence-2, preprocessed Tesseract with CLAHE contrast filtering, and EasyOCR) alongside binary EXIF metadata extraction and parameterized Neo4j Cypher graph mapping.
+
+**[video-intelligence-backend](https://github.com/YashJagdale2122/video-intelligence-backend)**
+FastAPI backend with state-machine job lifecycle and async worker pool. Key architectural decision: AI model stages isolated behind a common interface enabling hot-swap of inference backends without pipeline changes.
+
+**[backend-job-processing](https://github.com/YashJagdale2122/backend-job-processing)**
+State-machine-driven job lifecycle engine (PENDING → RUNNING → COMPLETED / FAILED / RETRYING) with clean API/Service/Repository/Domain separation and queue-agnostic worker architecture.
+
+---
+
+## What I've Actually Built (Production Experience)
 
 At C-DAC, I've built components of a large-scale AI intelligence platform running in an **air-gapped government environment**. Here's what that looks like in practice:
 
@@ -36,27 +54,13 @@ FastAPI + PocketBase + React + locally-hosted Granite 3.0 4b LLM. AI summarizati
 
 ## Tech Stack
 
-**Backend:** Python · FastAPI · SQLAlchemy · REST APIs · Asyncio · Celery · Pytest
+**Backend & Systems:** Python · FastAPI · Asyncio · Celery · Dragonfly · Redis (RESP) · PostgreSQL · SQLAlchemy · Docker · Docker Compose · Nginx · Tor Proxy · Linux
 
-**AI & LLM Infrastructure:** LLM Serving & Inference Optimization · RAG Pipelines (Qdrant, chunking, embedding APIs) · Model Orchestration · Speech-to-Text Integration · Computer Vision · Vector Clustering · LangChain
+**Data & Analytics Fabrics:** Elasticsearch Cluster v8.x · Qdrant Vector DB · ClickHouse · Neo4j Graph DB · MinIO Object Storage
 
-**Data & Search:** PostgreSQL · Elasticsearch · MinIO · Qdrant · Redis · ClickHouse · Neo4j
+**AI & Inference Infrastructure:** LLM Serving & Optimization · RAG Pipelines (Parent-Child Chunking, Embedding APIs) · Model Orchestration (vLLM/Ollama) · Computer Vision · Vector Clustering · Speech-to-Text
 
-**Systems & DevOps:** Docker · Docker Compose · Linux · GitHub Actions · Nginx · Dragonfly · Tor Proxy · JMeter
-
-**Architecture:** System Design (HLD/LLD) · Async Architectures · Clean Architecture · SOLID · Graph Database Design
-
----
-
-## Public Projects
-
-The repos pinned below are public reconstructions of patterns I've built in production — NDA prevents sharing the original platform code, but the architecture and engineering decisions are the same.
-
-**[video-intelligence-backend](https://github.com/YashJagdale2122/video-intelligence-backend)**
-FastAPI backend with state-machine job lifecycle and async worker pool. Key architectural decision: AI model stages isolated behind a common interface enabling hot-swap of inference backends without pipeline changes.
-
-**[backend-job-processing](https://github.com/YashJagdale2122/backend-job-processing)**
-State-machine-driven job lifecycle engine (PENDING → RUNNING → COMPLETED / FAILED / RETRYING) with clean API/Service/Repository/Domain separation and queue-agnostic worker architecture.
+**Architecture:** Asynchronous Architectures · System Design (HLD/LLD) · Multi-Tenant SaaS Isolation · Clean Architecture · SOLID · Graph Database Design
 
 ---
 
@@ -76,6 +80,14 @@ State-machine-driven job lifecycle engine (PENDING → RUNNING → COMPLETED / F
 - Seeking Backend / AI Platform Engineer roles in **Pune or Remote**
 
 ---
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/yash-jagadale](https://linkedin.com/in/yash-jagadale)
+- Email: yashjagadale21@gmail.com
+- Location: Pune, India
+
+
 
 ## Contact
 
