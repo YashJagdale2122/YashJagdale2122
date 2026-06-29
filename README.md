@@ -75,19 +75,11 @@ FastAPI + PocketBase + React + locally-hosted Granite 3.0 4b LLM. AI summarizati
 
 ## Currently
 
-- Serving notice period at C-DAC — **available from June 3, 2026**
+- **Available Immediately**
 - Completing LangChain & Vector Databases in Production (Activeloop / DeepLearning.AI)
 - Seeking Backend / AI Platform Engineer roles in **Pune or Remote**
 
 ---
-
-## Contact
-
-- LinkedIn: [linkedin.com/in/yash-jagadale](https://linkedin.com/in/yash-jagadale)
-- Email: yashjagadale21@gmail.com
-- Location: Pune, India
-
-
 
 ## Contact
 
